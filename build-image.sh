@@ -9,7 +9,7 @@ set -e
 
 DIR=$(cd "$(dirname "$0")"; pwd -P)
 
-KUBECTL_VERSION="1.15.3"
+KUBECTL_VERSION="1.27.3"
 IMAGE="k8sschool/kubectl-proxy:$KUBECTL_VERSION"
 
 # CACHE_OPT="--no-cache"
